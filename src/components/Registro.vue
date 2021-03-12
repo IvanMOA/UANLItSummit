@@ -75,12 +75,12 @@
       >
         {{ registering ? "Registrando cuenta..." : "Crear cuenta" }}
 
-        <img
+        <!-- <img
           v-if="registering"
           class="loader"
           src="../assets/loader.svg"
           alt=""
-        />
+        /> -->
       </button>
     </form>
     <div

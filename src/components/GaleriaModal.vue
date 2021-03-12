@@ -48,7 +48,7 @@
                 :key="imagen"
                 :class="index == 0 ? 'carousel-item active' : 'carousel-item'"
               >
-                <img
+                <!-- <img
                   class="d-block img-galeria"
                   :src="
                     require(`../assets/galeria/${nombreStand}/${
@@ -56,7 +56,7 @@
                     }`)
                   "
                   alt="First slide"
-                />
+                /> -->
               </div>
             </div>
             <a
