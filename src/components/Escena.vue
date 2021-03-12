@@ -19,7 +19,7 @@
         }"
       />
     </div>
-    <MapaModal @cambiar="cambiar" :localizacionActual="localizacionActual" />
+    <!--<MapaModal @cambiar="cambiar" :localizacionActual="localizacionActual" />-->
     <!-- Button trigger modal Galeria -->
     <a-scene
       device-orientation-permission-ui="enabled: true"
@@ -197,10 +197,9 @@
         ></a-entity>
        <!-- Conocenos -->
         <a-entity
-          :text="`value: Videos'
-          }; align: center; color: #333333;`"
+          :text="`value: Videos; align: center; color: #333333;`"
           scale="3 1 0"
-          :position="'0 -0.04 0.6'"
+          :position="'0 0.18 0.6'"
         ></a-entity>
         <!-- Documentos -->
         <a-entity
@@ -212,7 +211,7 @@
             elementos.tipoStand == 'tecnologias' ? 'Nosotros' : 'Servicios'
           }; align: center; color: #333333;`"
           scale="3 1 0"
-          position="0 0.2 0.6"
+          position= "0 -0.04 0.6"
         ></a-entity>
         
         <!-- Chat -->
@@ -332,7 +331,7 @@ import InformacionModal from "../components/InformacionModal.vue";
 import GaleriaModal from "../components/GaleriaModal.vue";
 import VideosModal from "../components/VideosModal.vue";
 import PdfModal from "../components/PdfModal.vue";
-import MapaModal from "../components/MapaModal.vue";
+
 import VideoModal from "../components/VideoModal.vue";
 import InfoFIMEModal from "../components/InfoFIMEModal.vue";
 let totemRandom = {
@@ -451,7 +450,6 @@ export default {
   props: [
     "totems",
     "rotacionCielo",
-    "localizacionActual",
     "bienvenidas",
     "chat",
     "cielo",
@@ -468,7 +466,6 @@ export default {
     VideosModal,
     PdfModal,
     GaleriaModal,
-    MapaModal,
     VideoModal,
     InfoFIMEModal,
   },

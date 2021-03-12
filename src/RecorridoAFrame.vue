@@ -60,12 +60,12 @@
 
       <div class="side-buttons">
         <!-- Abrir mapa -->
-        <a href="#" v-on:click="mostrarMapa" class="btn burger-btn-chat"
+        <!--<a href="#" v-on:click="mostrarMapa" class="btn burger-btn-chat"
           ><span class="glyphicon">
             <i v-if="mapOpen" class="fas fa-times text-white"></i>
             <i v-else class="fas fa-map-marked-alt"></i>
           </span>
-        </a>
+        </a>-->
         <!-- Abrir / Cerrar chat -->
         <!-- <a
           href="#"
