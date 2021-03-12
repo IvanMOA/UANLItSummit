@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Capa_1"
+   enable-background="new 0 0 512 512"
+   height="512"
+   viewBox="0 0 512 512"
+   width="512"
+   version="1.1"
+   sodipodi:docname="google.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs17" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="960"
+     inkscape:window-height="1022"
+     id="namedview15"
+     showgrid="false"
+     inkscape:zoom="0.32593203"
+     inkscape:cx="-132.77961"
+     inkscape:cy="90.651563"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g12" />
+  <g
+     id="g12">
+    <path
+       d="m258.287 34.2h127.279v193.747h-127.279z"
+       fill="#fdde80"
+       transform="matrix(.707 -.707 .707 .707 1.607 266.027)"
+       id="path2"
+       style="fill:#00a9e0;fill-opacity:1" />
+    <path
+       d="m453 197c0-33.137-26.863-60-60-60h-77v-77c0-33.137-26.863-60-60-60l-110 256 110 256h197z"
+       fill="#f8a808"
+       id="path4"
+       style="fill:#2a589f;fill-opacity:1" />
+    <path
+       d="m59 0h197v512h-197z"
+       fill="#fbbd00"
+       id="path6"
+       style="fill:#007cba;fill-opacity:1" />
+    <path
+       d="m378 227h-122l-20 15 20 15h92v150h-92l-20 15 20 15h122z"
+       fill="#e3e7ea"
+       id="path8" />
+    <path
+       d="m164 407v-150h92v-30h-122v210h122v-30z"
+       fill="#fff"
+       id="path10" />
+  </g>
+</svg>

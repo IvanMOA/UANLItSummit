@@ -1,0 +1,81 @@
+/* Sidebar */
+#sidebar-wrapper {
+  z-index: 500;
+  position: absolute;
+  width: 0px;
+  height: 100%;
+  overflow-y: hidden;
+  background: #ffffff;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 45px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 45px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 45px -13px rgba(0, 0, 0, 0.75);
+}
+
+/* Main Content */
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  transition: all 0.1s;
+}
+
+#menu-toggle {
+  transition: all 0.1s;
+  font-size: 2em;
+  z-index: 50;
+  position: absolute;
+  right: 0;
+  top: 4em;
+}
+/* Change the width of the sidebar to display it*/
+#wrapper.menuDisplayed #sidebar-wrapper {
+  width: min(30em, 80vw);
+}
+
+@media (max-width: 576px) {
+  .menuDisplayed #sidebar-wrapper {
+    width: 100vw !important;
+  }
+  .glyphicon i {
+    font-size: 1em !important;
+  }
+  .glyphicon {
+    padding: 0.5em !important;
+  }
+}
+
+#wrapper.menuDisplayed #page-content-wrapper {
+}
+
+/* Sidebar styling */
+.sidebar-nav {
+  padding: 0;
+  list-style: none;
+  transition: all 0.5s;
+  width: 100%;
+}
+
+.sidebar-nav li {
+  width: 100%;
+  transition: all 0.3s;
+}
+.a-menu-toggle:focus {
+  outline: none;
+}
+.glyphicon {
+  background: #ffffff88;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7em;
+  border-radius: 100%;
+}
+.glyphicon i {
+  font-size: 1.8em;
+  color: #2a589f;
+}
+.fa-times {
+  padding: 0 2.8px;
+}
