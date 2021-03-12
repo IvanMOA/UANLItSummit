@@ -500,7 +500,9 @@ export default {
           let link = document.createElement("a");
           link.setAttribute("href", url);
           link.setAttribute("target", "_blank");
-          link.click();
+          if(url != ''){
+            link.click();
+          }
         }
       });
     },

@@ -159,12 +159,12 @@ escenas['render0001'].navegadores.forEach((navegador) => {
   });
 });
 
-let lastRender = 'render0001'
-const lastRenderFromStorage = localStorage.getItem('lastLoc')
-if(lastRenderFromStorage){
-  lastRender = lastRenderFromStorage
-  cielos.push(`${lastRender}.jpg`)
-}
+// let lastRender = 'render0001'
+// const lastRenderFromStorage = localStorage.getItem('lastLoc')
+// if(lastRenderFromStorage){
+//   lastRender = lastRenderFromStorage
+//   cielos.push(`${lastRender}.jpg`)
+// }
 
 export default {
   name: 'RecorridoAFrame',
@@ -173,7 +173,7 @@ export default {
     Escena },
   data() {
     return {
-      localizacionActual: escenas[lastRender],
+      localizacionActual: escenas['render0001'],
       cielos: cielos,
       renderActual: 0,
       rendersCargados: cielos.length - 1,
