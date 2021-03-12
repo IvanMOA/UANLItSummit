@@ -56,7 +56,7 @@
       </div> -->
 
       <!-- Animacion de bienvenida, se activa una sola vez -->
-      <!-- <MensajeBienvenida @comenzarCancion="activarCancion" /> -->
+      <MensajeBienvenida @comenzarCancion="activarCancion" />
 
       <div class="side-buttons">
         <!-- Abrir mapa -->
@@ -134,7 +134,7 @@
 <script>
 import { mapState, mapActions } from 'vuex';
 import Escena from './components/Escena.vue';
-// import MensajeBienvenida from "./components/MensajeBienvenida.vue";
+import MensajeBienvenida from "./components/MensajeBienvenida.vue";
 // import Chats from "./components/Chats.vue";
 // import Login from "./components/Login.vue";
 // import Registro from "./components/Registro.vue";
@@ -169,7 +169,7 @@ if(lastRenderFromStorage){
 export default {
   name: 'RecorridoAFrame',
   components: {
-    //  MensajeBienvenida,
+     MensajeBienvenida,
     Escena },
   data() {
     return {
@@ -200,10 +200,10 @@ export default {
       abrir.click();
     },
     activarCancion() {
-      if (!this.user && !localStorage.getItem('haEntradoAntes')) {
-        this.abrirChat();
-        localStorage.setItem('haEntradoAntes', 'y');
-      }
+      // if (!this.user && !localStorage.getItem('haEntradoAntes')) {
+      //   this.abrirChat();
+      //   localStorage.setItem('haEntradoAntes', 'y');
+      // }
       let audioPlayin = false;
       let that = this;
       this.mp3.volume = 0.1;
