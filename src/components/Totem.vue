@@ -14,7 +14,7 @@
           position="0 0.455 0.6"
         ></a-entity>
         <a-entity
-          text="value: Info; align: center;"
+          text="value: Infooo; align: center;"
           scale="3 1 0"
           position="0 0.4 0.1"
         ></a-entity>

@@ -242,7 +242,7 @@ const elementos = {
     nombreStand: 'ipc',
     tipoStand: 'tecnologias',
     id: '',
-    whatsapp: 'https://wa.link/9dz2k9',
+    whatsapp: '',
     videos: [],
     videoBienvenida: '',
     imagenesPresentacion: require.context(``, true, /.*/).keys(),
@@ -426,7 +426,7 @@ const elementos = {
     tipoStand: 'tecnologias',
     id: '',
     whatsapp: 'https://wa.link/9dz2k9',
-    videos: ['https://www.youtube.com/embed/HMe3-9Vs9xc'],
+    videos: ['https://www.youtube.com/embed/-JCptb9ROko'],
     videoBienvenida: '',
     imagenesPresentacion: require.context(``, true, /.*/).keys(),
     informacion: {

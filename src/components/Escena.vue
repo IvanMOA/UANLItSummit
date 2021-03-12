@@ -195,6 +195,13 @@
           scale="3 1 0"
           :position="'0 0.4 0.6'"
         ></a-entity>
+       <!-- Conocenos -->
+        <a-entity
+          :text="`value: Videos'
+          }; align: center; color: #333333;`"
+          scale="3 1 0"
+          :position="'0 -0.04 0.6'"
+        ></a-entity>
         <!-- Documentos -->
         <a-entity
           v-if="
@@ -207,13 +214,7 @@
           scale="3 1 0"
           position="0 0.2 0.6"
         ></a-entity>
-        <!-- Conocenos -->
-        <a-entity
-          :text="`value: Videos'
-          }; align: center; color: #333333;`"
-          scale="3 1 0"
-          :position="'0 -0.04 0.6'"
-        ></a-entity>
+        
         <!-- Chat -->
         <a-entity
           :text="`value: ${
