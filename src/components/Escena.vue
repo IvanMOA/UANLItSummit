@@ -203,10 +203,6 @@
         ></a-entity>
         <!-- Documentos -->
         <a-entity
-          v-if="
-            elementos.nombreStand != 'goglobal' &&
-            elementos.nombreStand != 'upinnovation'
-          "
           :text="`value:  ${
             elementos.tipoStand == 'tecnologias' ? 'Nosotros' : 'Servicios'
           }; align: center; color: #333333;`"
@@ -215,16 +211,15 @@
         ></a-entity>
         
         <!-- Chat -->
-        <a-entity
+        <!-- <a-entity
           :text="`value: ${
             elementos.tipoStand == 'tecnologias' ? 'Chat' : 'Fotos'
           }; align: center; color: #333333;`"
           scale="3 1 0"
           :position="'0 -0.27 0.6'"
-        ></a-entity>
+        ></a-entity> -->
         <!-- Info  -->
         <a-entity
-          v-if="elementos.informacion"
           v-on:click="mostrarInformacion(index)"
           id="informacion"
           class="link"
@@ -255,7 +250,6 @@
 
         <!-- Video  -->
         <a-entity
-          v-if="elementos.videos.length > 0"
           v-on:click="
              mostrarVideo(index)
           "
@@ -272,11 +266,7 @@
         >
         </a-entity>
 
-        <a-entity
-          v-if="
-            elementos.nombreStand == 'goglobal' ||
-            elementos.nombreStand == 'upinnovation'
-          "
+        <!-- <a-entity
           geometry="primitive: plane; height: 1; width: 1"
           position="
             0 0.12 0.6
@@ -286,7 +276,7 @@
           animation__mouseenter="property: scale; to: 0.75 0.138 0.8; startEvents: mouseenter; dur: 100"
           animation__mouseleave="property: scale; to: 0.70 0.1288 0.7; startEvents: mouseleave; dur: 100"
         >
-        </a-entity>
+        </a-entity> -->
 
         <!-- Galeria  o Chat -->
         <a-entity
@@ -303,7 +293,6 @@
         >
         </a-entity>
         <a-entity
-          v-if="elementos.tipoStand == 'tecnologias' && elementos.whatsapp != ''"
           id="chatIcon"
           class="link"
           v-on:click="abrirWaOChatOChat(elementos.nombreStand)"
